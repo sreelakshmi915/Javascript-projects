@@ -12,7 +12,7 @@ function rock_game(x){
         console.log("YOU WINS:)");
     } 
     else if ((C ==0 && Y==2)||(C==1 && Y==0)||(C==2&&Y==1)){
-        console.log("you lose computer wins");
+        console.log("you lose computer wins :(");
     }
 
     function com_output(){

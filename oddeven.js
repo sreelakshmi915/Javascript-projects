@@ -8,11 +8,11 @@ function findValue(X,P)
     
     if ((X+Y)%2 ==0){
         if(P%2 ==0){
-           console.log ("You wins");
+           console.log ("You wins :)");
 
         }
         else if (odd_even%2==0){
-            console.log("computer wins...you loose!");
+            console.log("computer wins...you loose! :(");
         }
         else{
             console.log("tie");
@@ -24,11 +24,11 @@ function findValue(X,P)
     
     else{
         if(P%2 !=0){
-           console.log ("You wins");
+           console.log ("You wins:)");
 
         }
         else if (odd_even%2!=0){
-            console.log("computer wins...you loose!");
+            console.log("computer wins...you loose! :(");
         }
         else{
             console.log("tie");
@@ -37,14 +37,14 @@ function findValue(X,P)
         
     
     function com(){
-    var Y = Math.floor(Math.random()*10)*1;
+    var Y = Math.floor(Math.random()*10+1)+0;
    
     return Y;
 
          
     }
     function check_odd(){
-        var odd_even = Math.floor(Math.random()*2)*1;
+        var odd_even = Math.floor(Math.random()*2)+1;
         return odd_even;
 
     }
